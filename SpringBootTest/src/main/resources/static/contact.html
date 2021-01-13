@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recipe Stack</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="css/element.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Geostar+Fill|Leckerli+One|Montez" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+  </head>
+<body>
+<section id="header" class="header_menu">
+	<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand heading_tag" href="index.html">Recipe Stack </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="tag_menu" href="index.html">HOME</a>                    </li>
+                     
+                    <li>
+                        <a class="tag_menu" href="about.html">ABOUT</a>                    </li>
+					
+					<li class="dropdown">
+					  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">RECIPES<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li><a href="blog.html?qstring=starter">Starter</a></li>
+						<li><a href="blog.html?qstring=main">Breakfast</a></li>
+						<li><a href="blog.html?qstring=lunch">Lunch</a></li>
+						<li><a href="blog.html?qstring=dinner">Dinner</a></li>
+						<li><a href="blog.html?qstring=dessert">Dessert</a></li>
+						<li><a href="blog.html?qstring=snack">Snack</a></li>
+						<li><a href="blog.html">All Recipes</a></li>
+					  </ul>
+                    </li>
+                    
+                     <li class="dropdown">
+					  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">VIDEOS<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li><a href="video.html?qstring=starter">Starter</a></li>
+						<li><a href="video.html?qstring=main">Breakfast</a></li>
+						<li><a href="video.html?qstring=lunch">Lunch</a></li>
+						<li><a href="video.html?qstring=dinner">Dinner</a></li>
+						<li><a href="video.html?qstring=dessert">Dessert</a></li>
+						<li><a href="video.html?qstring=snack">Snack</a></li>
+						<li><a href="video.html">All Videos</a></li>
+					  </ul>
+                    </li>
+                    
+						
+					<li>
+                        <a class="tag_menu active_tab" href="contact.html">CONTACT</a>                    </li>
+					
+					<li class="dropdown">
+					  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li><a href="addRecipe.html">Add Recipe</a></li>
+						<li><a href="addVideo.html">Add cooking Videos</a></li>
+					  </ul>
+                    </li>
+					
+                </ul>
+				 
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</section>
+
+<section id="header_mini">
+    <div class="container">
+	  <div class="row">
+	          <div class="header_mini clearfix">
+			      <h1><a class="heading_tag" href="index.html">Recipe Stack</a></h1>
+			  </div>
+	                <a id="menu-toggle" href="#" class="btn btn-warning btn-lg toggle"><i class="fa fa-toggle-on"></i></a>
+		  
+			         <div id="sidebar-wrapper" class="">
+						  <ul class="sidebar-nav">
+							<a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-remove"></i></a>
+							<li class="sidebar-brand">
+							  <a class="heading_tag" href="index.html">Recipe Stack</a></li>
+								 <li>
+                        <a class="tag_menu" href="index.html">HOME</a>                    </li>
+                     
+                                 <li>
+                        <a class="tag_menu" href="about.html">ABOUT</a>                    </li>
+					 
+					            <li class="dropdown">
+					  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">RECIPES<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li><a href="blog.html?qstring=starter">Starter</a></li>
+						<li><a href="blog.html?qstring=main">Breakfast</a></li>
+						<li><a href="blog.html?qstring=lunch">Lunch</a></li>
+						<li><a href="blog.html?qstring=dinner">Dinner</a></li>
+						<li><a href="blog.html?qstring=dessert">Dessert</a></li>
+						<li><a href="blog.html?qstring=snack">Snack</a></li>
+						<li><a href="blog.html">All Recipes</a></li>
+					  </ul>
+                    </li>
+						
+						 <li class="dropdown">
+					  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">VIDEOS<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li><a href="video.html?qstring=starter">Starter</a></li>
+						<li><a href="video.html?qstring=main">Breakfast</a></li>
+						<li><a href="video.html?qstring=lunch">Lunch</a></li>
+						<li><a href="video.html?qstring=dinner">Dinner</a></li>
+						<li><a href="video.html?qstring=dessert">Dessert</a></li>
+						<li><a href="video.html?qstring=snack">Snack</a></li>
+						<li><a href="video.html">All Videos</a></li>
+					  </ul>
+                    </li>
+					               <li>
+                        <a class="tag_menu active_tab" href="contact.html">CONTACT</a>                    </li>
+					
+				                	<li class="dropdown">
+					  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li><a href="addRecipe.html">Add Recipe</a></li>
+						<li><a href="addVideo.html">Add cooking Videos</a></li>
+					  </ul>
+                    </li>
+						  </ul>
+			         </div>
+					 
+	   </div>
+	</div>
+  </section>
+
+<section id="contact">
+    <div class="container">
+	  <div class="row">
+	    <div class="col-sm-12">
+		   <h1 class="text-center">Contact Me</h1>
+		   <div class="col-sm-4">
+		    <div class="contact_1 text-center">
+			  <p class="text_1"><i class="fa fa-map-marker"></i></p>
+			  <h3>Address</h3>
+			  <span class="text_3">Bangalore,Karnataka INDIA</span>
+			</div>
+		   </div>
+		   <div class="col-sm-4">
+		    <div class="contact_1 text-center">
+			  <p class="text_2"><i class="glyphicon glyphicon-earphone"></i></p>
+			  <h3>Phone</h3>
+			  <span class="text_3">Telephone: +91 8050328115</span>
+			</div>
+		   </div>
+		   <div class="col-sm-4">
+		    <div class="contact_1 text-center">
+			  <p class="text_2"><i class="fa fa-envelope"></i></p>
+			  <h3>E-mail</h3>
+			  <span class="text_3">E-mail: <a href="#">alkaaithal@gmail.com</a></span>
+			</div>
+		   </div>
+		</div>
+	  </div>
+	</div>
+</section>
+   
+<section id="contact_home" class="clearfix">
+   <div class="contact_home clearfix">
+    <div class="col-sm-6 space_all">
+	 <div class="contact_home_left">
+				    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.660062764!2d77.35072924275279!3d12.954517017209252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1598507248700!5m2!1sen!2sin" width="100%" height="550px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+	 </div>
+	</div>
+	<div class="col-sm-6 space_all">
+	 <div class="contact_home_right clearfix">
+	  <h3 class="heading_tag">Bangalore<br> </h3>
+	  <h3 class="heading_tag"><br><br>
+           </h3>
+       <h3 class="heading_tag">Call <a href="#">+91 8050328115</a></h3>
+	  <div class="contact_home_right_inner clearfix"> <ul class="social-network social-circle">
+                         <li><a href="https://www.facebook.com/alakanandaaithal14" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/alka_aithal/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/alakananda-aithal-3b3a5b115" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul></div>
+	 </div>
+	</div>
+   </div>
+</section>
+
+<section id="footer">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+     <div class="footer text-center">
+	    <p> © 2020 Recipe Stack. All Rights Reserved</p>
+	 </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<script src="js/classie.js"></script>
+
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<script type="text/javascript">
+	  $("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+	</script>
+
+</body>
+       
+</html>
